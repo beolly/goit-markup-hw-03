@@ -63,10 +63,11 @@ section {
 .menu {
   display: flex;
   gap: 40px;
+  
+  padding: 24px 0;
 }
 
 .menu-li {
-  padding: 24px 0;
   font-family: Roboto;
   font-style: normal;
   color: #2e2f42;
@@ -106,10 +107,9 @@ section {
   color: #404bbf;
 }
 /* hero */
-.hero{
-  padding: 188px 0 ;
-}
+
 .hero-section {
+  padding: 188px 0 ;
   background: #2e2f42;
 }
 .hero-title {
@@ -143,6 +143,10 @@ section {
 .button:focus {
   background-color: #404bbf;
 }
+
+.benefits{
+  padding: 120px 0;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -169,8 +173,10 @@ section {
 .benefits-list {
   display: flex;
   gap: 24px;
+  
 }
-.benefits-li{
+.benefits-list:first-child{
+  
   width: calc((100% - 72px)/4);
 }
 
@@ -182,6 +188,7 @@ section {
 /* team */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0 ;
 }
 
 .team-link {
@@ -189,7 +196,6 @@ section {
   
   width: calc((100% - 72px) / 4); 
   border-radius: 0px 0px 4px 4px;
-    border-radius:  0px 4px 4px;
 }
 .team-section-title {
   color: #2e2f42;
@@ -240,6 +246,10 @@ section {
 }
 
 /* portfolio section */
+.portfolio{
+  padding-top: 120px; 
+  padding-bottom: 120px;
+}
 .project-title {
   color: #2e2f42;
   text-align: center;

@@ -175,7 +175,7 @@ section {
   gap: 24px;
   
 }
-.benefits-list:first-child{
+.benefits-li{
   width: calc((100% - 72px) / 4);
 }
 
@@ -246,8 +246,8 @@ section {
 
 /* portfolio section */
 .portfolio-section{
-  padding-top: 120px; 
-  padding-bottom: 120px;
+  padding-top: 120px;
+   padding-bottom: 120px; 
 }
 .project-title {
   color: #2e2f42;

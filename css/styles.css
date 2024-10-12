@@ -10,6 +10,8 @@ body {
 ul,
 li {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
@@ -36,7 +38,6 @@ section {
 .page-header {
   display: flex;
  
-  /* width: 1440px; */
 }
 
 .page-logo {
@@ -144,6 +145,7 @@ section {
   background-color: #404bbf;
 }
 
+
 .benefits{
   padding: 120px 0;
 }
@@ -154,7 +156,6 @@ section {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);

@@ -63,8 +63,6 @@ section {
 .menu {
   display: flex;
   gap: 40px;
-  
-  padding: 24px 0;
 }
 
 .menu-li {
@@ -74,7 +72,6 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  padding: 24px 0 ;
 }
 .menu-li:hover,
 .menu-li:focus {
@@ -82,6 +79,9 @@ section {
 }
 .menu-li:active {
   text-decoration: underline #404bbf;
+}
+.menu-link{
+  padding: 24px 0;
 }
 .menu-link:focus,
 .menu-link:active {
@@ -175,9 +175,8 @@ section {
   gap: 24px;
   
 }
-.benefits-list:first-child{
-  
-  width: calc((100% - 72px)/4);
+.benefits-li{
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-text {

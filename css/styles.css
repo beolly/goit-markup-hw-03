@@ -24,7 +24,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: auto 15px;
+  padding: 0 15px;
 }
 section {
   padding: 120px 0;
@@ -73,6 +73,7 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  padding: 24px 0 ;
 }
 .menu-li:hover,
 .menu-li:focus {
@@ -105,6 +106,9 @@ section {
   color: #404bbf;
 }
 /* hero */
+.hero{
+  padding: 188px 0 ;
+}
 .hero-section {
   background: #2e2f42;
 }
@@ -132,6 +136,7 @@ section {
   margin: 48px auto;
   display: block;
   height: 56px;
+  min-width: 169px;
   padding: 16px 32px;
 }
 .button:hover,
@@ -165,8 +170,8 @@ section {
   display: flex;
   gap: 24px;
 }
-.benefits-list:first-child {
-  width: calc((100% - 72px) / 4);
+.benefits-li{
+  width: calc((100% - 72px)/4);
 }
 
 .benefits-text {
@@ -181,6 +186,10 @@ section {
 
 .team-link {
   background-color: #ffffff;
+  
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
+    border-radius:  0px 4px 4px;
 }
 .team-section-title {
   color: #2e2f42;
@@ -200,11 +209,7 @@ section {
   justify-content: center;
   align-items: center;
 }
-.team-list:first-child{
-    width: calc((100% - 72px) / 4); 
-  border-radius: 0px 0px 4px 4px;
-    border-radius:  0px 4px 4px;
-}
+
 .team-name {
   color: #2e2f42;
   text-align: center;

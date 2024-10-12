@@ -30,9 +30,12 @@ section {
   padding: 120px 0;
 }
 /* header */
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
+ 
   /* width: 1440px; */
 }
 

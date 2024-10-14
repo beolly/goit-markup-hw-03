@@ -23,6 +23,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+
 }
 button {
   cursor: pointer;
@@ -50,6 +51,7 @@ section {
   display: flex;
   justify-items: center;
   align-items: center;
+ 
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -68,6 +70,9 @@ section {
 .menu {
   display: flex;
   gap: 40px;
+  
+  justify-items: center;
+  align-items: center;
 }
 
 .menu-li {
@@ -77,6 +82,9 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  
+}
+.menu-link ,.address-link{
   padding: 24px 0;
 }
 .menu-li:hover,
@@ -91,24 +99,23 @@ section {
 .menu-link:active {
   color: #404bbf;
 }
+
 .menu-adress {
   display: flex;
   font-style: normal;
   justify-items: center;
-
-  justify-content: space-between;
-  margin-left: 332px;
-  margin-right: 0;
 }
 .adress-list {
-    
-  align-items: center;
+  margin-left: 332px;
+  
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .adress-li {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 .adress-link:hover,
 .adress-link:active,

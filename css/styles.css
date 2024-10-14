@@ -6,12 +6,19 @@ body {
   font-style: normal;
   background: #fff;
 }
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+  padding: 0;
+}
 
-ul,
+ul,ol,
 li {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
+  
+
 }
 a {
   text-decoration: none;
@@ -39,7 +46,12 @@ section {
   display: flex;
  
 }
-
+.page-nav {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 24px 0;
+}
 .page-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -48,19 +60,12 @@ section {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
-  padding: 25px 0;
   margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
 }
 
-.page-nav {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin: auto;
-}
 .menu {
   display: flex;
   gap: 40px;
@@ -81,20 +86,23 @@ section {
 .menu-li:active {
   text-decoration: underline #404bbf;
 }
-.menu-link{
-  padding: 24px 0;
-}
+
 .menu-link:focus,
 .menu-link:active {
   color: #404bbf;
 }
 .menu-adress {
   display: flex;
-  margin-right: 109px;
   font-style: normal;
-  align-items: center;
+  justify-items: center;
+
+  justify-content: space-between;
+  margin-left: 332px;
+  margin-right: 0;
 }
 .adress-list {
+    
+  align-items: center;
   display: flex;
   gap: 40px;
 }
@@ -111,13 +119,13 @@ section {
 
 .hero-section {
   padding: 188px 0 ;
-  background: #2e2f42;
+  background:  #2E2F42;
 }
 .hero-title {
   color: #fff;
   text-align: center;
   max-width: 496px;
-  margin: auto;
+  margin: auto ;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -134,7 +142,7 @@ section {
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  margin: 48px auto;
+  margin: 48px auto 0 auto;
   display: block;
   height: 56px;
   min-width: 169px;
@@ -146,9 +154,9 @@ section {
 }
 
 
-.benefits{
+/* .benefits{
   padding: 120px 0;
-}
+} */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -188,7 +196,7 @@ section {
 /* team */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0 ;
+ 
 }
 
 .team-link {
@@ -268,8 +276,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px ;
-  padding: 0 16px;
-  margin-bottom: 8px ;
+  
 }
 .project-list {
   display: flex;
@@ -297,7 +304,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 0 16px;
+  
 }
 
 .footer {
